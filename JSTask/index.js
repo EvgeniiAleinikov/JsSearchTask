@@ -1,7 +1,7 @@
 var outline = document.getElementById('outline');
     
 var jsonData;
-var requestURL = 'http://www.mrsoft.by/data.json';
+var requestURL = 'https://cors-anywhere.herokuapp.com/http://www.mrsoft.by/data.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
